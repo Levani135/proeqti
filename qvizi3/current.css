@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://media.formula1.com/image/upload/content/dam/fom-website/sutton/2022/Italy/Sunday/1422823415.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: darkred;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px 10px 0 0;
+    width: 80%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 12px;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}

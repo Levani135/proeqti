@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://media.formula1.com/image/upload/content/dam/fom-website/manual/2023/Launches2023/Ferrari2023Launch/Ferrari%201.jpg.transform/9col/image.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#register-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#password-strength {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#confirm-password,
+#mobile-number {
+    color: black;
+}
+
+.password-mismatch,
+.invalid-mobile,
+.invalid-gmail {
+    color: red;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 600px) {
+    #register-container {
+        max-width: none;
+    }
+
+    button {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    input, button {
+        width: 50%;
+    }
+}
